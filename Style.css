@@ -1,0 +1,219 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+nav
+{
+    padding: 15px;
+    box-shadow: 3px 4px 11px 0px rgba(0, 0, 0, 0.72);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav > label
+{
+    font-size: 35px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.7);
+    margin-left: 7%;
+    margin-right: 7%;
+}
+nav > a
+{
+    text-decoration: none;
+    vertical-align: top;
+    /* border: 1px solid black; */
+    padding: 8px 18px;
+    display: inline-block;
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: 8px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+nav > a:hover
+{
+    color: rgba(0, 0, 0, 0.8);
+}
+#contact
+{
+    margin-left: 6%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(165, 42, 42, .7);
+    color: white;
+}
+#contact  :hover
+{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.8);
+}
+#cover-sec
+{
+    width: 100%;
+    height: 620px;
+    position: relative;
+}
+#cover-sec > img.cover-pic
+{
+    width: 100%;
+    height: 620px;
+}
+#cover-sec > .cover-title
+{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.9);
+    top: 15%;
+    left: 5%;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.7;
+}
+#cover-sec > .cover-link
+{
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+}
+#cover-sec > .cover-link > a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.9);
+    padding: 8px 30px;
+    margin-right: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 4px;
+}
+#cover-sec > .cover-link > a :hover
+{
+    background-color: black;
+}
+#cover-sec > img.boder-pic
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+} 
+#about-us >h2 
+{
+    font-size: 32px;
+    font-weight: lighter;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+}
+#about-us >h1
+{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center; 
+    margin-top: 0; 
+}
+#about-us > h2::before
+{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 100px;
+    background-color: green;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+ /* book-table  */
+#book-table
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(image/coffee_cover2.jpg);
+    background-size: 100% 600px;
+    position: relative;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+#book-table ::after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px; 
+    /* top: -2px; */
+    width: 100%;
+    height: 20px;
+    background-image: url(image/boder_cover.png);
+    background-repeat: repeat-x;
+    background-size: 40% 100%;
+}
+#book-table > div.booktable1
+{
+    width: 50%;
+    color: white;
+    padding: 30px 50px;
+}
+#book-table > div.booktable1 >h1
+{
+    color: yellow;
+    margin-top: 80px;
+    font-size: 36pt;
+    margin-bottom: 5px;
+}
+#book-table > div.booktable1 >h2
+{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 28pt;
+}
+#book-table > div.booktable1 > p
+{
+    font-size: 14pt;
+}
+#book-table > div.booktable1 > li
+{
+    list-style: none;
+    font-size: 14pt;
+}
+/* #book-table > div.booktable1 > li > label
+{
+    font-size: 14pt;
+    margin-right: 20pt;
+} */
+#book-table > div.booktable2
+{
+    width: 50%;
+    color: white;
+    padding: 30px 50px;
+}
+#book-table > div.booktable2 >h2
+{
+    text-align: center;
+    font-size: 36pt;
+    margin-bottom: 10px;
+}
+#book-table > div.booktable2 > div >input,button
+{
+    margin-top: 0px;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border-color: yellow;
+    color: white;
+    font-size: 13pt;
+    padding: 0 10px;
+}
+#book-table > div.booktable2 > div >button
+{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+/* #book-table > div.booktable2 > div >button :hover
+{
+  background-color: ;  
+} */
